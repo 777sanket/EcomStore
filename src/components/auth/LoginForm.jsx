@@ -40,8 +40,8 @@ const LoginForm = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto my-8 px-4 py-8 bg-white shadow-md rounded-lg sm:px-6">
-      <h2 className="text-center text-3xl font-extrabold text-gray-900">
+    <div className="max-w-md mx-auto my-8 px-4 py-8 backdrop-blur-md bg-white/30 shadow-md rounded-lg sm:px-6 ">
+      <h2 className="text-center text-3xl font-extrabold text-gray-900 ">
         Sign in to your account
       </h2>
 
@@ -137,6 +137,7 @@ const LoginForm = () => {
         <Link
           to="/signup"
           className="font-medium text-blue-600 hover:text-blue-500"
+          onClick={() => navigate("/signup")}
         >
           Sign up
         </Link>

@@ -57,8 +57,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    // <nav className="bg-white shadow-md">
+    <nav className="bg-white shadow-md z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-white/30 backdrop-blur-sm">
         <div className="flex justify-between h-16">
           {/* Logo and navigation */}
           <div className="flex">
@@ -82,7 +83,7 @@ const Navbar = () => {
                   Categories
                 </button>
                 {isCategoryDropdownOpen && (
-                  <div className="absolute z-10 mt-2 w-48 rounded-md shadow-lg bg-white top-10 ring-1 ring-black ring-opacity-5">
+                  <div className="absolute z-30 mt-2 w-48 rounded-md shadow-lg bg-white top-10 ring-1 ring-black ring-opacity-5">
                     <div
                       className="py-1"
                       role="menu"

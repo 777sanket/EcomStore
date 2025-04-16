@@ -38,7 +38,9 @@ const ProductFilters = ({ onFilterChange, initialFilters = {} }) => {
   };
 
   const handlePriceChange = (e, bound) => {
-    const value = parseInt(e.target.value) || 0;
+    // const value = parseInt(e.target.value) || 0;
+    const value = e.target.value === "" ? "" : parseInt(e.target.value);
+
     const updatedRange = { ...priceRange, [bound]: value };
 
     setPriceRange(updatedRange);

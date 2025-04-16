@@ -142,7 +142,7 @@ const ProductDetails = () => {
                 min="1"
                 value={quantity}
                 onChange={handleQuantityChange}
-                className="shadow-sm rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 sm:text-sm p-2 w-20"
+                className="shadow-lg rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 sm:text-sm p-2 w-20 text-center"
               />
             </div>
           </div>
