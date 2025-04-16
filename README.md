@@ -1,10 +1,10 @@
 # E-commerce React Application
 
-A fully functional e-commerce web application built with React, JavaScript, and Tailwind CSS. This project is a clone of [E-commerce UI](https://edcenten0.github.io/Vite-E-commerce/) using the Platzi Fake API.
+A fully functional e-commerce web application built with React, JavaScript, and Tailwind CSS using the Platzi Fake API.
 
 ## Demo
 
-[Live Demo](https://your-deployment-url.netlify.app) - Add your deployment URL here
+[Live Demo](https://ecomstore-theta.vercel.app) - Add your deployment URL here
 
 ## Features
 
