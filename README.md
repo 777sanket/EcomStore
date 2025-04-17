@@ -103,11 +103,5 @@ npm run build
 - **Order Confirmation**: Summary and confirmation
 - **Order History**: View past orders with full details
 
-## Testing Credentials
-
-For testing the authentication:
-
-- **Email**: john@mail.com
-- **Password**: changeme
 
 
